@@ -1,6 +1,27 @@
-| Module.Question | Spring Boot                                                      |
-|-----------------|------------------------------------------------------------------|
-| 04.01           | What is the difference between checked and unchecked exceptions? |
+| Module.Question | Spring Boot          |
+|-----------------|----------------------|
+| 04.01           | What is Spring Boot? |
+|                 |                      |
+| 04.02           |                      |
+|                 |                      |
+|                 |                      |
+|                 |                      |
+|                 |                      |
+|                 |                      |
+|                 |                      |
+|                 |                      |
+|                 |                      |
+|                 |                      |
+|                 |                      |
+|                 |                      |
+|                 |                      |
+|                 |                      |
+|                 |                      |
+|                 |                      |
+|                 |                      |
+|                 |                      |
+|                 |                      |
+|                 |                      |
 
 
 TESTED WITH JAVA 11
