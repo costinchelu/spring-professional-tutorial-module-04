@@ -39,6 +39,7 @@
             <artifactId>hsqldb</artifactId>
         </dependency>
 
+<!--        sets the autoconfiguration for the app       -->
         <dependency>
             <groupId>spring-professional-exam-tutorial-module04</groupId>
             <artifactId>module04-question04-my-autoconfiguration</artifactId>

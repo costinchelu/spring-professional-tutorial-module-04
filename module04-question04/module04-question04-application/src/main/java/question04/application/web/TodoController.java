@@ -1,7 +1,7 @@
-package com.spring.professional.exam.tutorial.module04.question04.application.web;
+package question04.application.web;
 
-import com.spring.professional.exam.tutorial.module04.question04.application.dao.TodoItemsDao;
-import com.spring.professional.exam.tutorial.module04.question04.application.ds.TodoItem;
+import question04.application.dao.TodoItemsDao;
+import question04.application.ds.TodoItem;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -17,17 +17,14 @@ public class TodoController {
 
     @GetMapping
     public String index(Model model) {
-
         model.addAttribute("todoItems", todoItemsDao.findAll());
         model.addAttribute("newTodoItem", new TodoItem());
-
         return "index";
     }
 
     @PostMapping("/add")
     public String add(@ModelAttribute TodoItem todoItem) {
         todoItemsDao.save(todoItem);
-
         return "redirect:/";
     }
 }

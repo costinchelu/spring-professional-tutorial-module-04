@@ -1,7 +1,7 @@
-package com.spring.professional.exam.tutorial.module04.question05.web;
+package question05.web;
 
-import com.spring.professional.exam.tutorial.module04.question05.dao.TodoItemsDao;
-import com.spring.professional.exam.tutorial.module04.question05.ds.TodoItem;
+import question05.dao.TodoItemsDao;
+import question05.ds.TodoItem;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

@@ -1,4 +1,4 @@
-package com.spring.professional.exam.tutorial.module04.question05;
+package question05;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

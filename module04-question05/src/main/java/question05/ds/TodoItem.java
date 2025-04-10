@@ -1,4 +1,4 @@
-package com.spring.professional.exam.tutorial.module04.question05.ds;
+package question05.ds;
 
 import lombok.Data;
 

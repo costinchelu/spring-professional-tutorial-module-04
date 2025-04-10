@@ -6,12 +6,12 @@
 |                 |                                                |
 | 04.03           | Why is Spring Boot an "opinionated" framework? |
 |                 |                                                |
+| 04.04           | What things affect what Spring Boot sets up?   |
 |                 |                                                |
+| 04.05           | What is a Spring Boot starter POM?             |
+|                 | Why is it useful?                              |
 |                 |                                                |
-|                 |                                                |
-|                 |                                                |
-|                 |                                                |
-|                 |                                                |
+| 04.06           |                                                |
 |                 |                                                |
 |                 |                                                |
 |                 |                                                |

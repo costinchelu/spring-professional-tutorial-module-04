@@ -1,4 +1,4 @@
-package com.spring.professional.exam.tutorial.module04.question04.my.autoconfiguration;
+package question04.my.autoconfiguration;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
@@ -15,14 +15,15 @@ import javax.sql.DataSource;
 
 @Configuration
 @ConditionalOnClass(name = "org.hsqldb.Database")
-@EnableJpaRepositories(basePackages = {"com.spring.professional.exam.tutorial.module04.question04"})
+@EnableJpaRepositories(basePackages = {"question04"})
 public class JpaAutoConfiguration {
+
     @Bean
     @Autowired
     public LocalContainerEntityManagerFactoryBean entityManagerFactory(DataSource dataSource) {
         LocalContainerEntityManagerFactoryBean em = new LocalContainerEntityManagerFactoryBean();
         em.setDataSource(dataSource);
-        em.setPackagesToScan("com.spring.professional.exam.tutorial.module04.question04");
+        em.setPackagesToScan("question04");
 
         HibernateJpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
         vendorAdapter.setGenerateDdl(true);
