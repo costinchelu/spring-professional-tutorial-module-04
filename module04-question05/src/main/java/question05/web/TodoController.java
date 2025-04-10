@@ -22,17 +22,16 @@ public class TodoController {
     public String index(TodoItem todoItem, Model model) {
         model.addAttribute("todoItems", todoItemsDao.findAll());
         model.addAttribute("todoItem", todoItem);
-
         return "index";
     }
 
+    // implemented validation using the spring-boot-starter-validation
     @PostMapping("/add")
     public String add(@Valid @ModelAttribute TodoItem todoItem, BindingResult bindingResult, Model model) {
         if (bindingResult.hasErrors()) {
             return index(todoItem, model);
         } else {
             todoItemsDao.save(todoItem);
-
             return "redirect:/";
         }
     }
