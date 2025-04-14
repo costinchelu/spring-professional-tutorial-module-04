@@ -24,5 +24,4 @@ public class AppConfiguration {
     private int propertyN;
     private int propertyO;
     private int propertyP;
-    private String propertyR;
 }
