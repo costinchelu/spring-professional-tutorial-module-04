@@ -25,10 +25,13 @@ public class SpringBootConsoleApplication implements CommandLineRunner {
 }
 // change name of the default config file (use program arguments):
 // java -jar myapp.jar --spring.config.name=dev
+// so to get properties from application-dev files
+
+// also observe propertyR that will be taken from application-dev.properties in resources/config even though we have it also in application.properties
 
 // change the location of the default config file:
 // java -jar myapp.jar --spring.config.location=classpath:/default.properties
-// (use working directory) to point ot absolute path of working-directory
+// (use working directory) to point out absolute path of working-directory
 // should display:
 // AppConfiguration(propertyA=1, propertyB=2, propertyC=3, propertyD=4, propertyE=5, propertyF=6, propertyG=7,
 // propertyH=8, propertyI=9, propertyJ=10, propertyK=11, propertyL=12, propertyM=13, propertyN=14,
