@@ -1,4 +1,4 @@
-package com.spring.professional.exam.tutorial.module04.question14.embedded;
+package module04.question14.embedded;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

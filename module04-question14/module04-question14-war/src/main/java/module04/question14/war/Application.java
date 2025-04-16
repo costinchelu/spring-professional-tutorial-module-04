@@ -1,4 +1,4 @@
-package com.spring.professional.exam.tutorial.module04.question14.war;
+package module04.question14.war;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
