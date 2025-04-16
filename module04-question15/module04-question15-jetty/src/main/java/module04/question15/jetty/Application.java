@@ -1,4 +1,4 @@
-package com.spring.professional.exam.tutorial.module04.question15.jetty;
+package module04.question15.jetty;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

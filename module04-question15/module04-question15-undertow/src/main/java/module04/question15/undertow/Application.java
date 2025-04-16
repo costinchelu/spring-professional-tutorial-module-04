@@ -1,4 +1,4 @@
-package com.spring.professional.exam.tutorial.module04.question15.undertow;
+package module04.question15.undertow;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

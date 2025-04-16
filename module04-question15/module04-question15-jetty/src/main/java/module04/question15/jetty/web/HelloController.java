@@ -1,4 +1,4 @@
-package com.spring.professional.exam.tutorial.module04.question15.jetty.web;
+package module04.question15.jetty.web;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
