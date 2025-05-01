@@ -27,7 +27,23 @@
 |                 |                                                                             |
 | 04.13           | What's the fat Jar and how is it different from the original jar?           |
 |                 |                                                                             |
-| 04.14           |                                                                             |
+| 04.14           | What is the difference between an embedded container and a WAR?             |
+|                 |                                                                             |
+| 04.15           | What embedded containers does Spring Boot support?                          |
+|                 |                                                                             |
+| 04.16           | How does Spring Boot know what to configure?                                |
+|                 |                                                                             |
+| 04.17           | What does @EnableAutoConfiguration do?                                      |
+|                 |                                                                             |
+| 04.18           | What does @SpringBootApplication do?                                        |
+|                 |                                                                             |
+| 04.19           | Does Spring Boot do component scanning?                                     |
+|                 | Where does it look by default?                                              |
+|                 |                                                                             |
+| 04.20           | How are DataSource and JdbcTemplate auto-configured?                        |
+|                 |                                                                             |
+| 04.21           | What is spring.factories file for?                                          |
+|                 |                                                                             |
 |                 |                                                                             |
 |                 |                                                                             |
 |                 |                                                                             |
