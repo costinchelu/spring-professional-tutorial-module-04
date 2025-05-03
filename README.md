@@ -44,6 +44,16 @@
 |                 |                                                                             |
 | 04.21           | What is spring.factories file for?                                          |
 |                 |                                                                             |
+| 04.22           | How do you customize Spring auto configuration?                             |
+|                 |                                                                             |
+| 04.23           | What are the examples of @Conditional annotations?                          |
+|                 | How are they used?                                                          |
+|                 |                                                                             |
+| 04.24           | What value does Spring Boot Actuator provide?                               |
+|                 |                                                                             |
+| 04.25           | What are the two protocols you can use to access actuator endpoints?        |
+|                 |                                                                             |
+| 04.26           | What are the actuator endpoints that are provided out of the box?           |
 |                 |                                                                             |
 |                 |                                                                             |
 |                 |                                                                             |
