@@ -8,7 +8,7 @@ import java.util.Random;
 
 @RestController
 public class HelloController {
-    private Random random = new Random();
+    private final Random random = new Random();
 
     @GetMapping
     public String index() {

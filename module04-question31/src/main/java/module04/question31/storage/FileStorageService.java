@@ -14,9 +14,10 @@ import static module04.question31.utils.StatisticsUtils.maxId;
 
 @Service
 public class FileStorageService implements StorageService {
-    private Map<Integer, String> fileStorage = new HashMap<>();
-    private Counter objectsCount;
-    private AtomicLong averageObjectSize;
+
+    private final Map<Integer, String> fileStorage = new HashMap<>();
+    private final Counter objectsCount;
+    private final AtomicLong averageObjectSize;
 
     public FileStorageService(MeterRegistry meterRegistry) {
         objectsCount = meterRegistry.counter("storage.object.count", "type", "file");

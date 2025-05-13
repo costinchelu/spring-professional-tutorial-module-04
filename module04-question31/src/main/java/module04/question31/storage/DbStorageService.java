@@ -14,9 +14,10 @@ import static module04.question31.utils.StatisticsUtils.maxId;
 
 @Service
 public class DbStorageService implements StorageService {
-    private Map<Integer, String> dbStorage = new HashMap<>();
-    private Counter objectsCount;
-    private AtomicLong averageObjectSize;
+
+    private final Map<Integer, String> dbStorage = new HashMap<>();
+    private final Counter objectsCount;
+    private final AtomicLong averageObjectSize;
 
     public DbStorageService(MeterRegistry meterRegistry) {
         objectsCount = meterRegistry.counter("storage.object.count", "type", "db");

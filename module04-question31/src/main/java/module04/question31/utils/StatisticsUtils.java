@@ -3,6 +3,7 @@ package module04.question31.utils;
 import java.util.Map;
 
 public class StatisticsUtils {
+
     public static int maxId(Map<Integer, String> objectStorage) {
         return objectStorage.keySet().stream()
                 .max(Integer::compareTo)

@@ -55,14 +55,42 @@
 |                 |                                                                             |
 | 04.26           | What are the actuator endpoints that are provided out of the box?           |
 |                 |                                                                             |
+| 04.27           | What is info endpoint for?                                                  |
+|                 | How do you supply data?                                                     |
 |                 |                                                                             |
+| 04.28           | How do you change logging level of a package using loggers endpoint?        |
 |                 |                                                                             |
+| 04.29           | How do you access an endpoint  using a tag?                                 |
 |                 |                                                                             |
+| 04.30           | What is actuator-metrics for?                                               |
 |                 |                                                                             |
+| 04.31           | How do you create a custom metric with or without tags?                     |
 |                 |                                                                             |
+| 04.32           |                                                                             |
 |                 |                                                                             |
+| 04.33           |                                                                             |
 |                 |                                                                             |
+| 04.34           |                                                                             |
 |                 |                                                                             |
+| 04.35           |                                                                             |
+|                 |                                                                             |
+| 04.36           |                                                                             |
+|                 |                                                                             |
+| 04.37           |                                                                             |
+|                 |                                                                             |
+| 04.38           |                                                                             |
+|                 |                                                                             |
+| 04.39           |                                                                             |
+|                 |                                                                             |
+| 04.40           |                                                                             |
+|                 |                                                                             |
+| 04.41           |                                                                             |
+|                 |                                                                             |
+| 04.42           |                                                                             |
+|                 |                                                                             |
+| 04.43           |                                                                             |
+|                 |                                                                             |
+| 04.44           |                                                                             |
 |                 |                                                                             |
 |                 |                                                                             |
 

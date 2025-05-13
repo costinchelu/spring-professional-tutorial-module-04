@@ -2,17 +2,20 @@ package module04.question31.web;
 
 import module04.question31.storage.DbStorageService;
 import module04.question31.storage.FileStorageService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class StorageController {
 
-    @Autowired
-    private DbStorageService dbStorageService;
-    @Autowired
-    private FileStorageService fileStorageService;
+    private final DbStorageService dbStorageService;
+
+    private final FileStorageService fileStorageService;
+
+    public StorageController(DbStorageService dbStorageService, FileStorageService fileStorageService) {
+        this.dbStorageService = dbStorageService;
+        this.fileStorageService = fileStorageService;
+    }
 
     @PutMapping("db/storage")
     public int storeInDb(@RequestBody String content) {
